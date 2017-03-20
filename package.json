@@ -4,7 +4,7 @@
   "description": "practice js ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node hoisting/example1.js"
   },
   "repository": {
     "type": "git",
