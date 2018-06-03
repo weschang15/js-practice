@@ -4,7 +4,9 @@
   "description": "practice js ",
   "main": "index.js",
   "scripts": {
-    "hangman": "cd ./cli/hangman && nodemon start"
+    "hangman": "cd ./cli/hangman && nodemon start",
+    "playground": "nodemon index.js --prefix redux-playground",
+    "dev": "npm run playground"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/weschang15/js-practice#readme",
   "devDependencies": {
     "nodemon": "^1.17.4"
+  },
+  "dependencies": {
+    "redux": "^4.0.0"
   }
 }
