@@ -4,7 +4,7 @@
   "description": "practice js ",
   "main": "index.js",
   "scripts": {
-    "start": "node hoisting/example1.js"
+    "hangman": "cd ./cli/hangman && nodemon start"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/weschang15/js-practice/issues"
   },
-  "homepage": "https://github.com/weschang15/js-practice#readme"
+  "homepage": "https://github.com/weschang15/js-practice#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
 }
